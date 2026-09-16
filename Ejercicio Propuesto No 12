@@ -15,7 +15,6 @@ class Calculos:
         salario_neto = salario_bruto - retefuente
         return salario_neto
 
-
 def main():
     horas_laboradas = 48.0
     valor_hora = 5000.0
@@ -28,7 +27,6 @@ def main():
     print(f"El Salario Bruto es: {salario_bruto}")
     print(f"El valor de la retencion es: {retefuente}")
     print(f"El Salario Neto es: {salario_neto}")
-
 
 if __name__ == "__main__":
     main()

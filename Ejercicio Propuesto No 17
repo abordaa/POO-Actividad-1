@@ -1,0 +1,22 @@
+import math
+class Circulo:
+
+    @staticmethod
+    def calcular_area(radio):
+        return math.pi * (radio**2)
+
+    @staticmethod
+    def calcular_longitud(radio):
+        return 2 * math.pi * radio
+
+def main():
+    radio = float(input("Ingrese el radio del círculo: "))
+
+    area = Circulo.calcular_area(radio)
+    longitud = Circulo.calcular_longitud(radio)
+
+    print(f"El área del círculo es: {area}")
+    print(f"La longitud de la circunferencia es: {longitud}")
+
+if __name__ == "__main__":
+    main()
